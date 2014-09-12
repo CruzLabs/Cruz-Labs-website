@@ -1,0 +1,71 @@
+<head>
+  <title>cruzlabs</title>
+</head>
+
+<body>
+  {{> navbar}}
+  {{> carousal}}
+  {{> jumbotron}}
+</body>
+
+<template name = "navbar">
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="http://bootswatch.com/" class="navbar-brand">Cruzlabs</a>
+        </div>
+        
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://builtwithbootstrap.com/" target="_blank">Our Mission</a></li>
+            <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">Our Team</a></li>
+          </ul>
+
+       
+      </div>
+    </div>      
+</template>
+
+<template name ="jumbotron">
+      <!-- Containers
+      ================================================== -->
+      <div class="bs-docs-section">
+
+        <div class="row">
+          <div class="col-lg-12">
+                      <div class="page-header">
+              <h1 id="container"></h1>
+            </div>
+            <div class="bs-component">
+              <div class="jumbotron">
+                <h1>Get paid to learn coding.</h1>
+                <p>We mentor students for completing real projects, for real clients. Come learn with us, build up your skillset, and most importantly have fun!</p>
+                <br>
+                <p><a class="btn btn-primary btn-lg">Apply Now</a></p>
+              </div>
+            <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
+          </div>
+        </div>
+      </div>
+</template>
+
+<template name = "carousal"> 
+ <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="./Carousel Template · Bootstrap_files/slide-01.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Work outside.</h1>
+              <p class="lead">Learn real life skills outside of the classroom.</p>
+              <a class="btn btn-large btn-primary" href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Apply here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+
+</template>
+
